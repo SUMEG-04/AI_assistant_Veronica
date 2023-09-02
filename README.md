@@ -1,12 +1,13 @@
-#Project Name: Voice-Controlled AI Assistant
+# Project Name: Voice-Controlled AI Assistant
 
-##Description:
+## Description:
 
 The Voice-Controlled AI Assistant is a Python-based project that empowers users to interact with their computer using voice commands. This AI-powered assistant, named "Veronica," offers a hands-free and efficient way to perform various tasks and obtain information.
 
-###Key Features:
+### Key Features:
 
 Voice Recognition: Veronica uses the SpeechRecognition library to accurately transcribe spoken words into text, allowing users to communicate with their computer naturally.
+
 ` pip3 install speechrecognition`
 ` pip install pyaudio`
 

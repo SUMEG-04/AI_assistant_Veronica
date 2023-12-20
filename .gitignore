@@ -1,1 +1,7 @@
 /.env
+/token.json
+/credentials.json
+/agents/gmail_agent/token.json
+/vosk-model-small-en-us-0.15
+/__pycache__
+/agents/gmail_agent/__pycache__

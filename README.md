@@ -1,45 +1,100 @@
-# Project Name: Voice-Controlled AI Assistant
+# Project Veronica - AI Super Assistant
 
-## Description:
+Welcome to Project Veronica - Your AI Super Assistant! 🤖✨
 
-The Voice-Controlled AI Assistant is a Python-based project that empowers users to interact with their computer using voice commands. This AI-powered assistant, named "Veronica," offers a hands-free and efficient way to perform various tasks and obtain information.
+## Overview
 
-### Key Features:
+Inspired by Marvel's Iron Man and his AI assistant, Jarvis, Project Veronica is a personal AI project aimed at creating a versatile and futuristic AI assistant capable of handling various tasks.
 
-Voice Recognition: Veronica uses the SpeechRecognition library to accurately transcribe spoken words into text, allowing users to communicate with their computer naturally.
+## Features
 
-` pip3 install speechrecognition`
-` pip install pyaudio`
+- **Gmail Agent:** Efficient email drafting, sending, and management.
+- **Structured Chat Agent:** Versatile conversations for diverse interactions.
+- **Social Media Agent:** Topic-based classification for LinkedIn and GitHub queries.
+- **Speech Recognition:** Hands-free interaction using voice commands.
+- **Web Scraping:** Extracting context and information for enhanced responses.
+- **Voice Synthesis:** Veronica speaks with advanced voice synthesis.
 
-Text-to-Speech Output: With the help of the win32com.client library, Veronica responds to user commands and queries with clear and friendly spoken responses.
+## Dependencies
 
-`pip install win32com`
+Make sure to install the following dependencies to run Project Veronica:
 
-Web Browsing: Users can instruct Veronica to open websites by simply saying, "Open [website name]." The assistant extracts website URLs and launches them in a web browser.
-
-`pip install webbroswer`
-
-AI-Powered Conversations: Veronica is powered by OpenAI's GPT-3.5 Turbo model, enabling natural and context-aware conversations. It provides answers, suggestions, and information based on user prompts.
-
+`langchain` Install using 
+```bash
+ pip install langchain
+```
+ `langchain_google_genai` Install using
+```bash 
+`pip install langchain_google_genai`
+```
+ `speech_recognition` Install using
+```bash 
+`pip install SpeechRecognition`
+```
+ `win32com` Install using
+```bash 
+`pip install pywin32`
+```
+ `sounddevice` Install using
+```bash 
+`pip install sounddevice`
+```
+ `vosk` Install using
+```bash 
+`pip install vosk`
+```
+ `openai` Install using
+```bash 
 `pip install openai`
+```
+ `google-api-python-client` Install using
+```bash 
+`pip install google-api-python-client`
+```
+ `python-dotenv` Install using
+```bash 
+`pip install python-dotenv`
+```
 
-### How to Use:
+## API Keys
 
-Launch the program and allow it to access your microphone.
-Start a conversation with Veronica by saying "Hello Veronica" or any other command.
-Issue voice commands to perform tasks or ask questions.
-Getting Started:
+Project Veronica utilizes the following APIs. Make sure to set up your API keys:
 
-To get started with this project, follow the installation instructions in the README.md file. You'll need Python, several libraries, and API keys to set up the environment.
+- **Google Cloud API:** For Gmail and Google Search integration.
+  - [Google Cloud Console](https://console.cloud.google.com/)
+- **OpenAI API:** For language models.
+  - [OpenAI API](https://beta.openai.com/signup/)
 
-#### Contributing:
 
-We welcome contributions from the open-source community to enhance Veronica's capabilities. If you have ideas or improvements to share, feel free to fork this repository and submit pull requests.
+## How to Use
 
-#### License:
+Follow these steps to get started with Project Veronica:
 
-This project is open-source and available under the MIT License. You are free to use, modify, and distribute it according to the terms of the license.
+1. Clone the repository: `git clone https://github.com/SUMEG-04/AI_assistant_Veronica`
+2. Install dependencies as mentioned above.
+3. Set up API keys as mentioned in the API Keys section.
+4. You are good to go
 
-Explore the future of voice-controlled computing with Veronica and simplify your daily tasks with a voice command.
+## Collaboration
 
-Feel free to customize this description to better suit your project's unique features and goals. Ensure that you provide accurate and informative details to attract potential users and contributors to your GitHub project.
+We welcome contributions! To contribute to Project Veronica:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature`.
+5. Open a pull request.
+
+Feel free to explore the project, contribute, and enhance your very own AI assistant - Veronica!
+## Resources
+
+For more detailed information and resources, check the following:
+
+- [Project Documentation](link-to-your-documentation)
+- [Google Cloud Documentation](https://cloud.google.com/docs)
+- [OpenAI Documentation](https://beta.openai.com/docs/)
+Feel free to explore the project, contribute, and enhance your very own AI assistant - Veronica!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
